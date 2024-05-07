@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+}
+
+
+body {
+    background-size: cover;
+    background-image: url(img/nova\ far.jpg);
+}
+
+.caixa-principal {
+    margin: 309px 0px 0px 106px;
+}
+
+.img-face {
+    width: 25px;
+    margin: 0px 0px 471px 146px;
+}
+
+.img-gmail {
+    width: 31px;
+    margin: 9px 0px 468px 4px;;
+}
+
+.link-cadastro {
+    margin: 0px 0px 0px 135px;
+    text-decoration: none;
+    color: black;
+}
+
+button {
+
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 45px;
+    margin: 19px 0px 15px 120px;
+    padding: 9px 35px;
+    color: #030303;
+    background: #f4f8f8
+}
+
+button:hover {
+    background-color: rgb(78, 201, 238);
+}
+
+h1 {
+    color: #000000;
+    margin: 0px 0px 14px 25px;
+}
+
+span {
+    font-size: 24px;
+    color: #000000;
+}
+
+input {
+    font-size: larger;
+    border-radius: 11px;
+}
+
+@media screen and (max-width:980px) {
+    body {
+        background-image: url(img/farma\ ss.jpg);
+        background-position: 39% 50%;
+        width: 100%;
+        height: 88vh;
+    }
+
+    .caixa-principal {
+        margin: 114px 0px 0px 39px;
+    }
+    .img-face {
+        width: 31px;
+        margin: 13px 0px 0px 139px;
+    
+}
+    .img-gmail {
+        width: 31px;
+        margin: 13px 0px 0px 8px;
+    
+    }
+}
